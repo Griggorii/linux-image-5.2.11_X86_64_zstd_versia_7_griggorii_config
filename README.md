@@ -6,6 +6,16 @@ linux-image-5.2.11_X86_64_zstd_versia_7_griggorii_config
 Ядра проверены все работает всё заводится не совсем zstd конфиг от ядра 4.18 с небольшими или почти без изменений моя система 
 уже автоматом исправляет ошибки в конфиге если сами ядра не сырые сама система https://github.com/Griggorii/Cinnamon-Budgie-Linux-OS-11-based-19.04-Ubuntu-Pop
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+Зависимости которые надо установить для компиляции 
+
+&& sudo apt update && apt --reinstall install gcc make dpkg-dev cpp bc fakeroot libncurses5-dev qt5-default libncurses-dev libglade2-dev bison build-essential flex font-uralic g++ g++-8 git git-man libbison-dev libc6-dev libc-dev-bin linux-libc-dev liberror-perl libfl-dev libfl2 libstdc++-8-dev zlib1g-dev libelf-dev libssl-dev 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
 Конфигурировать можно командами 
 
      "make config"      Plain text interface.
