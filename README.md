@@ -8,9 +8,9 @@ linux-image-5.2.11_X86_64_zstd_versia_7_griggorii_config
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Зависимости которые надо установить для компиляции 
+Зависимости которые надо установить для компиляции libelf-dev  конце не обязателен если он нужен будет компилятор сообщит
 
-&& sudo apt update && apt --reinstall install gcc make dpkg-dev cpp bc fakeroot libncurses5-dev qt5-default libncurses-dev libglade2-dev bison build-essential flex g++ g++-8 git git-man libbison-dev libc6-dev libc-dev-bin linux-libc-dev liberror-perl libfl-dev libfl2 libstdc++-8-dev zlib1g-dev libelf-dev libssl-dev 
+&& sudo apt update && apt --reinstall install gcc make dpkg-dev cpp bc fakeroot libncurses5-dev qt5-default libncurses-dev libglade2-dev bison build-essential flex g++ g++-8 git git-man libbison-dev libc6-dev libc-dev-bin linux-libc-dev liberror-perl libfl-dev libfl2 libstdc++-8-dev zlib1g-dev libssl-dev libelf-dev
 
 -----------------------------------------------------------------------------------------------------------------------------
 
